@@ -6,7 +6,7 @@ import SwiftUI
 struct SwiftConcurrencyTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WeakSelf()
         }
     }
 }
