@@ -33,9 +33,8 @@ class AsyncImageDownloadLoader {
             .mapError({ $0 })
             .eraseToAnyPublisher()
     }
-    
     func downloadWithAsync() async throws -> UIImage? {
-        do {
+        do  {
             let (data, response) = try await URLSession.shared.data(from: url, delegate: nil)
             return handleResponse(data: data, response: response)
         } catch {

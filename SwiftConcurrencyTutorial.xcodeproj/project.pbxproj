@@ -19,6 +19,8 @@
 		BC96ACBF2BF75A2C003C65C8 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ACBE2BF75A2C003C65C8 /* Hashable.swift */; };
 		BC96ACC12BF761C3003C65C8 /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ACC02BF761C3003C65C8 /* SortFilterMap.swift */; };
 		BC96ACC32BF78B14003C65C8 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ACC22BF78B14003C65C8 /* WeakSelf.swift */; };
+		BC96ACC52BF86D44003C65C8 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ACC42BF86D44003C65C8 /* AsyncAwait.swift */; };
+		BC96ACC72BF87409003C65C8 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96ACC62BF87409003C65C8 /* Tasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		BC96ACBE2BF75A2C003C65C8 /* Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
 		BC96ACC02BF761C3003C65C8 /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
 		BC96ACC22BF78B14003C65C8 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
+		BC96ACC42BF86D44003C65C8 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		BC96ACC62BF87409003C65C8 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				BC96ACB02BF4E7AE003C65C8 /* DoCatchTry.swift */,
 				BC96ACB52BF53D26003C65C8 /* AsyncImageDownload.swift */,
+				BC96ACC42BF86D44003C65C8 /* AsyncAwait.swift */,
+				BC96ACC62BF87409003C65C8 /* Tasks.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -194,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC96ACBD2BF748AE003C65C8 /* GeometryReader.swift in Sources */,
+				BC96ACC52BF86D44003C65C8 /* AsyncAwait.swift in Sources */,
 				BC96ACBF2BF75A2C003C65C8 /* Hashable.swift in Sources */,
 				BC96ACB62BF53D26003C65C8 /* AsyncImageDownload.swift in Sources */,
+				BC96ACC72BF87409003C65C8 /* Tasks.swift in Sources */,
 				BC96ACB12BF4E7AE003C65C8 /* DoCatchTry.swift in Sources */,
 				BC96ACC12BF761C3003C65C8 /* SortFilterMap.swift in Sources */,
 				BC96ACA32BF4E76B003C65C8 /* ContentView.swift in Sources */,
